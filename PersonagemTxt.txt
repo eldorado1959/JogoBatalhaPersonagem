@@ -1,0 +1,32 @@
+	/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
+ */
+package JogoDeAventura;
+
+/**
+ *
+ * @author Aluno
+ */
+public interface Personagem {
+    /*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
+ */
+
+/**
+ *
+ * @author Aluno
+ */
+public interface Personagem1 {
+    int atacar();
+    void vida();
+  
+    // Métodos para ações que os personagens podem realizar
+    void usarHabilidade();       // Método para usar uma habilidade especial
+    void usarItem();             // Método para usar um item
+    void fugir();                // Método para fugir da batalha
+
+    // Método para exibir o status do personagem
+    void exibirStatus();        
+}
